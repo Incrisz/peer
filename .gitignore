@@ -1,0 +1,37 @@
+# Laravel
+/vendor
+/storage/*.key
+/.phpunit.cache
+.phpunit.result.cache
+.env
+.env.*
+Homestead.yaml
+Homestead.json
+auth.json
+
+# Laravel build artifacts
+/public/storage
+/public/build
+/public/hot
+
+# Node
+/node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDEs & Editor junk
+/.vscode
+/.idea
+/.fleet
+.DS_Store
+Thumbs.db
+
+# OS junk files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Docker
+docker-compose.override.yml
