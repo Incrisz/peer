@@ -61,6 +61,12 @@ php artisan vendor:publish --tag=livewire:config || true
 
 php artisan livewire:discover
 
+
+touch storage/app/TokenICO.json
+chmod 664 storage/app/TokenICO.json
+chown www-data:www-data storage/app/TokenICO.json
+
+
 # Create necessary migration tables if not yet
 # php artisan cache:table 2>/dev/null || echo "Cache table migration already exists"
 # php artisan queue:table 2>/dev/null || echo "Queue table migration already exists"
