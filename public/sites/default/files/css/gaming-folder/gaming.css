@@ -1,0 +1,68 @@
+.primary-btn-game {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-4.87%, #000000), to(#000000));
+    background: linear-gradient(90deg, #000000 -4.87%, #000000 100%);
+    border-radius: 10px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 10px 30px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: all ease-in-out 0.6s;
+    transition: all ease-in-out 0.6s
+}
+.gaming-btn {
+    background: -webkit-gradient(linear, left top, right top, color-stop(-4.87%, #02A9EB), to(#205AA6));
+    background: linear-gradient(90deg, #02A9EB -4.87%, #205AA6 100%);
+    border-radius: 10px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 10px 30px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: all ease-in-out 0.6s;
+    transition: all ease-in-out 0.6s
+}
+
+@media screen and (max-width: 768px) {
+    .control-image {
+        display: none; 
+    }
+
+    .mobile-image {
+        display: block; 
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .keep-content{
+
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .control-image {
+        display: none; 
+    }
+
+    .mobile-image {
+        display: block; 
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .control-image {
+        transform: scale(0.8); 
+        animation: none; 
+    }
+}
