@@ -1,6 +1,6 @@
 # Laravel
 /vendor
-/storage/*.key
+# /storage/*.key
 /.phpunit.cache
 .phpunit.result.cache
 .env
